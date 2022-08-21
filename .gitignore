@@ -1,0 +1,18 @@
+# ===================
+# Monoxide .gitignore
+# ===================
+
+# CMake
+cmake-build-debug/
+cmake-build-release/
+cmake-build-minsizerel/
+cmake-build-relwithdebinfo/
+CMakeFiles/
+bin/
+
+# JetBrains IDE
+.idea
+
+# Visual Studio
+out
+.vs/
