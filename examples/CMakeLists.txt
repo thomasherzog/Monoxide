@@ -1,3 +1,1 @@
-add_subdirectory(
-        imgui-example
-)
+add_subdirectory(imgui-example)

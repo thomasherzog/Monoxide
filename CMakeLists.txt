@@ -34,6 +34,8 @@ add_library(${PROJECT_NAME}
 
         src/monoxide/graphics/vulkan/render/RecordedCommandBuffer.cpp
 
+        src/monoxide/graphics/vulkan/memory/Image.cpp
+
         src/monoxide/renderer/ImGuiRenderer.cpp
         )
 
