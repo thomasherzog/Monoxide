@@ -1,7 +1,7 @@
 CPMFindPackage(
         NAME VulkanMemoryAllocator
         GITHUB_REPOSITORY GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator
-        GIT_TAG beb26af01cda4b68091d700826c77893f2fdbfd2
+        GIT_TAG d2767622a6019775be9a073114e6df52e12fe822
         DOWNLOAD_ONLY ON
 )
 

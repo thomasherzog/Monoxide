@@ -4,6 +4,7 @@ list(APPEND cpm_packages
         glfw
         VulkanMemoryAllocator
         freetype
+        stb
         )
 
 include(CPM)

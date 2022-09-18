@@ -2,6 +2,7 @@
 #define MONOXIDE_IMGUIEXAMPLEWINDOW_H
 
 #include <monoxide/windowing/ImGuiWindow.h>
+#include <monoxide/graphics/vulkan/memory/Texture.h>
 
 class ImGuiExampleWindow : public windowing::ImGuiWindow {
 public:
@@ -12,6 +13,9 @@ public:
     void onRenderUI() override;
 
 private:
+    std::unique_ptr<vulkan::Texture> texture;
+
+    ImTextureID textureId;
 
 };
 
