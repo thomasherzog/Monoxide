@@ -13,9 +13,9 @@ public:
     void onRenderUI() override;
 
 private:
-    std::unique_ptr<vulkan::Texture> texture;
+    std::vector<std::unique_ptr<vulkan::Texture>> textures;
 
-    ImTextureID textureId;
+    std::vector<ImTextureID> thumbnails;
 
 };
 

@@ -14,7 +14,6 @@ option(MONOXIDE_INCLUDE_EXTERNAL "Include external dependencies" ON)
 # Library definition
 # ==================
 
-include_directories(include)
 add_library(${PROJECT_NAME}
         src/monoxide/windowing/WindowManager.cpp
         src/monoxide/windowing/BaseWindow.cpp
@@ -41,6 +40,7 @@ add_library(${PROJECT_NAME}
         src/monoxide/renderer/ImGuiRenderer.cpp
         )
 
+target_include_directories(${PROJECT_NAME} PUBLIC include)
 
 # ======
 # Extras
