@@ -1,5 +1,4 @@
-#ifndef MONOXIDE_TEXTURE_H
-#define MONOXIDE_TEXTURE_H
+#pragma once
 
 #include "monoxide/graphics/vulkan/memory/Image.h"
 #include "monoxide/graphics/vulkan/memory/Buffer.h"
@@ -27,6 +26,3 @@ private:
     std::unique_ptr<Image> image;
 
 };
-
-
-#endif //MONOXIDE_TEXTURE_H

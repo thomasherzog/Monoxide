@@ -1,5 +1,4 @@
-#ifndef MONOXIDE_INFLIGHTFRAMES_H
-#define MONOXIDE_INFLIGHTFRAMES_H
+#pragma once
 
 #include "monoxide/graphics/vulkan/core/Context.h"
 
@@ -37,6 +36,3 @@ struct vulkan::SyncObject {
 
     vk::Fence fence;
 };
-
-
-#endif //MONOXIDE_INFLIGHTFRAMES_H

@@ -1,5 +1,4 @@
-#ifndef MONOXIDE_IMGUIEXAMPLEWINDOW_H
-#define MONOXIDE_IMGUIEXAMPLEWINDOW_H
+#pragma once
 
 #include <monoxide/windowing/ImGuiWindow.h>
 #include <monoxide/graphics/vulkan/memory/Texture.h>
@@ -12,12 +11,4 @@ public:
 
     void onRenderUI() override;
 
-private:
-    std::vector<std::unique_ptr<vulkan::Texture>> textures;
-
-    std::vector<ImTextureID> thumbnails;
-
 };
-
-
-#endif //MONOXIDE_IMGUIEXAMPLEWINDOW_H

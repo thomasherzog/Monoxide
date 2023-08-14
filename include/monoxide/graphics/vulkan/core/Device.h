@@ -1,10 +1,8 @@
-#ifndef MONOXIDE_DEVICE_H
-#define MONOXIDE_DEVICE_H
+#pragma once
 
 #include "monoxide/graphics/vulkan/core/PhysicalDevice.h"
 
 #include <optional>
-
 
 namespace vulkan {
     class Device;
@@ -64,5 +62,3 @@ struct vulkan::QueueFamily {
     uint32_t index;
     vk::QueueFamilyProperties properties;
 };
-
-#endif //MONOXIDE_DEVICE_H

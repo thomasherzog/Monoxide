@@ -4,7 +4,7 @@ add_library(imgui
         src/imgui_widgets.cpp
         src/imgui_tables.cpp
         src/imgui_demo.cpp
-        src/imgui_freetype.cpp)
+        src/misc/freetype/imgui_freetype.cpp)
 
 target_include_directories(imgui PUBLIC include)
 

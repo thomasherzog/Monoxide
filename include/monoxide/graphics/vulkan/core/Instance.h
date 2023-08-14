@@ -1,5 +1,4 @@
-#ifndef MONOXIDE_INSTANCE_H
-#define MONOXIDE_INSTANCE_H
+#pragma once
 
 #include "monoxide/graphics/vulkan/debug/DebugMessenger.h"
 
@@ -27,6 +26,3 @@ private:
 
     std::optional<DebugMessenger> debugMessenger;
 };
-
-
-#endif //MONOXIDE_INSTANCE_H

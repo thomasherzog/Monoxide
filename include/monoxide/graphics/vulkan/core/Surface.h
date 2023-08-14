@@ -1,9 +1,7 @@
-#ifndef MONOXIDE_SURFACE_H
-#define MONOXIDE_SURFACE_H
+#pragma once
 
 #include <vulkan/vulkan.hpp>
 #include <GLFW/glfw3.h>
-
 
 namespace vulkan {
     class Surface;
@@ -21,6 +19,3 @@ private:
     vk::SurfaceKHR surface;
 
 };
-
-
-#endif //MONOXIDE_SURFACE_H

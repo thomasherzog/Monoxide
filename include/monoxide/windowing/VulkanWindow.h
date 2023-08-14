@@ -1,5 +1,4 @@
-#ifndef MONOXIDE_VULKANWINDOW_H
-#define MONOXIDE_VULKANWINDOW_H
+#pragma once
 
 #include "monoxide/windowing/BaseWindow.h"
 #include "monoxide/graphics/vulkan/core/Swapchain.h"
@@ -48,6 +47,3 @@ private:
     static std::vector<std::tuple<int, int>> getRequiredWindowHints();
 
 };
-
-
-#endif //MONOXIDE_VULKANWINDOW_H

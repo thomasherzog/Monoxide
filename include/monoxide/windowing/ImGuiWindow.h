@@ -1,5 +1,4 @@
-#ifndef MONOXIDE_IMGUIWINDOW_H
-#define MONOXIDE_IMGUIWINDOW_H
+#pragma once
 
 #include "monoxide/windowing/VulkanWindow.h"
 #include "monoxide/renderer/ImGuiRenderer.h"
@@ -29,6 +28,3 @@ public:
 private:
     std::unique_ptr<ImGuiRenderer> imguiRenderer;
 };
-
-
-#endif //MONOXIDE_IMGUIWINDOW_H

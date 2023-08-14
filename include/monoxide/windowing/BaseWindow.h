@@ -1,5 +1,4 @@
-#ifndef MONOXIDE_BASEWINDOW_H
-#define MONOXIDE_BASEWINDOW_H
+#pragma once
 
 #include <vector>
 #include <string>
@@ -25,6 +24,3 @@ protected:
 
     virtual void onWindowRender() = 0;
 };
-
-
-#endif //MONOXIDE_BASEWINDOW_H

@@ -1,8 +1,6 @@
-#ifndef MONOXIDE_DEBUGMESSENGER_H
-#define MONOXIDE_DEBUGMESSENGER_H
+#pragma once
 
 #include <vulkan/vulkan.hpp>
-
 
 namespace vulkan {
     class DebugMessenger;
@@ -24,7 +22,3 @@ private:
                                                         const VkDebugUtilsMessengerCallbackDataEXT *pCallbackData,
                                                         void *pUserData);
 };
-
-
-
-#endif //MONOXIDE_DEBUGMESSENGER_H

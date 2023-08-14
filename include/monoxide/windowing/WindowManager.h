@@ -1,5 +1,4 @@
-#ifndef MONOXIDE_WINDOWMANAGER_H
-#define MONOXIDE_WINDOWMANAGER_H
+#pragma once
 
 #include <memory>
 #include "monoxide/windowing/BaseWindow.h"
@@ -32,6 +31,3 @@ private:
     static std::shared_ptr<WindowManager> instance;
 
 };
-
-
-#endif //MONOXIDE_WINDOWMANAGER_H

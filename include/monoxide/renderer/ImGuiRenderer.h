@@ -1,5 +1,4 @@
-#ifndef MONOXIDE_IMGUIRENDERER_H
-#define MONOXIDE_IMGUIRENDERER_H
+#pragma once
 
 #include "monoxide/graphics/vulkan/core/Context.h"
 #include "monoxide/graphics/vulkan/core/Swapchain.h"
@@ -42,6 +41,3 @@ private:
 
     void createCommandBuffers(int imagesInFlight);
 };
-
-
-#endif //MONOXIDE_IMGUIRENDERER_H

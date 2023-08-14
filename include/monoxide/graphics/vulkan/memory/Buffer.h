@@ -1,5 +1,4 @@
-#ifndef MONOXIDE_BUFFER_H
-#define MONOXIDE_BUFFER_H
+#pragma once
 
 #include "monoxide/graphics/vulkan/core/Context.h"
 
@@ -22,6 +21,3 @@ private:
     std::shared_ptr<Context> context;
 
 };
-
-
-#endif //MONOXIDE_BUFFER_H

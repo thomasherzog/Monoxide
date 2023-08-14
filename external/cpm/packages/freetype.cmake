@@ -6,7 +6,7 @@ CPMFindPackage(
         "FT_DISABLE_ZLIB ON"
         "FT_DISABLE_BZIP2 ON"
         "FT_DISABLE_PNG ON"
-        "FT_DISABLE_HARFBUZZ ON"
+        "FT_DISABLE_HARFBUZZ OFF"
         "FT_DISABLE_BROTLI ON"
 )
 

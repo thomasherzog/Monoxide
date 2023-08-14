@@ -1,5 +1,4 @@
-#ifndef MONOXIDE_SHAREDCONTEXT_H
-#define MONOXIDE_SHAREDCONTEXT_H
+#pragma once
 
 #include "monoxide/graphics/vulkan/core/Instance.h"
 #include "monoxide/graphics/vulkan/core/Surface.h"
@@ -7,8 +6,6 @@
 #include "monoxide/graphics/vulkan/debug/DebugMessenger.h"
 
 #include <vk_mem_alloc.h>
-
-
 
 namespace vulkan {
     class SharedContext;
@@ -43,6 +40,3 @@ private:
     VmaAllocator allocator{};
 
 };
-
-
-#endif //MONOXIDE_SHAREDCONTEXT_H

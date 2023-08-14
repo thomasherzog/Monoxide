@@ -1,5 +1,4 @@
-#ifndef MONOXIDE_RECORDEDCOMMANDBUFFER_H
-#define MONOXIDE_RECORDEDCOMMANDBUFFER_H
+#pragma once
 
 #include "monoxide/graphics/vulkan/core/Context.h"
 
@@ -18,6 +17,3 @@ private:
     vk::CommandBuffer commandBuffer;
 
 };
-
-
-#endif //MONOXIDE_RECORDEDCOMMANDBUFFER_H

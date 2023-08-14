@@ -1,5 +1,4 @@
-#ifndef MONOXIDE_CONTEXT_H
-#define MONOXIDE_CONTEXT_H
+#pragma once
 
 #include "monoxide/graphics/vulkan/core/SharedContext.h"
 
@@ -46,6 +45,3 @@ private:
     void endTransientExecution(vk::CommandBuffer commandBuffer);
 
 };
-
-
-#endif //MONOXIDE_CONTEXT_H

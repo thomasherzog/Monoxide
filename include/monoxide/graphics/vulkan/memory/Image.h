@@ -1,5 +1,4 @@
-#ifndef MONOXIDE_IMAGE_H
-#define MONOXIDE_IMAGE_H
+#pragma once
 
 #include "monoxide/graphics/vulkan/core/Context.h"
 
@@ -20,6 +19,3 @@ private:
     std::shared_ptr<Context> context;
 
 };
-
-
-#endif //MONOXIDE_IMAGE_H

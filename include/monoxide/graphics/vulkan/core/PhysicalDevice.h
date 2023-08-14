@@ -1,5 +1,4 @@
-#ifndef MONOXIDE_PHYSICALDEVICE_H
-#define MONOXIDE_PHYSICALDEVICE_H
+#pragma once
 
 #include <vulkan/vulkan.hpp>
 
@@ -17,6 +16,3 @@ namespace vulkan::PhysicalDevice {
     bool isExtensionAvailable(vk::PhysicalDevice physicalDevice, std::string extensionName);
 
 }
-
-
-#endif //MONOXIDE_PHYSICALDEVICE_H

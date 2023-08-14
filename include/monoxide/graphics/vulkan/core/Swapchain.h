@@ -1,5 +1,4 @@
-#ifndef MONOXIDE_SWAPCHAIN_H
-#define MONOXIDE_SWAPCHAIN_H
+#pragma once
 
 #include "monoxide/graphics/vulkan/core/Context.h"
 
@@ -60,6 +59,3 @@ private:
     std::vector<vk::PresentModeKHR> presentModes;
 
 };
-
-
-#endif //MONOXIDE_SWAPCHAIN_H
