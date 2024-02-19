@@ -23,4 +23,5 @@ void ImGuiExampleWindow::onRenderUI() {
     ImGui::End();
 
     ImGui::ShowDemoWindow();
+    ImGui::ShowMetricsWindow();
 }

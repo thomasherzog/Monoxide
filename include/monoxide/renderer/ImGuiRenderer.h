@@ -1,5 +1,7 @@
 #pragma once
 
+#include <functional>
+
 #include "monoxide/graphics/vulkan/core/Context.h"
 #include "monoxide/graphics/vulkan/core/Swapchain.h"
 #include "monoxide/graphics/vulkan/render/RecordedCommandBuffer.h"
@@ -10,7 +12,7 @@
 
 class ImGuiRenderer {
 public:
-    ImGuiRenderer(std::shared_ptr<vulkan::Context> context, GLFWwindow* window, vulkan::Swapchain &swapchain);
+    ImGuiRenderer(const std::shared_ptr<vulkan::Context>& context, GLFWwindow* window, vulkan::Swapchain &swapchain);
 
     ~ImGuiRenderer();
 

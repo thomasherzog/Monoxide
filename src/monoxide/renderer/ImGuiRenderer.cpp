@@ -1,6 +1,6 @@
 #include "monoxide/renderer/ImGuiRenderer.h"
 
-ImGuiRenderer::ImGuiRenderer(std::shared_ptr<vulkan::Context> context, GLFWwindow *window, vulkan::Swapchain &swapchain)
+ImGuiRenderer::ImGuiRenderer(const std::shared_ptr<vulkan::Context>& context, GLFWwindow *window, vulkan::Swapchain &swapchain)
         : context(context) {
     vk::DescriptorPoolSize poolSizes[] = {
             {vk::DescriptorType::eSampler,              1000},
