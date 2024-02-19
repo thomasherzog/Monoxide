@@ -1,7 +1,7 @@
 CPMFindPackage(
         NAME Freetype
         GITHUB_REPOSITORY freetype/freetype
-        GIT_TAG 7cd3f19f21cc9d600e3b765ef2058474d20233e2
+        GIT_TAG 47574f7ea445c8bb751da0fa716424c9c29a6807
         OPTIONS
         "FT_DISABLE_ZLIB ON"
         "FT_DISABLE_BZIP2 ON"

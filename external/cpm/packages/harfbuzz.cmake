@@ -1,7 +1,7 @@
 CPMFindPackage(
         NAME harfbuzz
         GITHUB_REPOSITORY harfbuzz/harfbuzz
-        GIT_TAG 41f85d0179dd60ee49e3064213bd4bbf5edaec96
+        GIT_TAG c546aa6c5ae78605fd048fd628bd1f25b2e3e50f
 )
 
 if (harfbuzz_ADDED)
